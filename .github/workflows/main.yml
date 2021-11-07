@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - "out/**"
+      - "docs/**"
   workflow_dispatch:
 
 jobs:
@@ -24,11 +24,11 @@ jobs:
             --citeproc
             --slide-level=2
             -t revealjs
-            --output=out/index.html
+            --output=docs/index.html
             slides.md
 
       - name: commit and push
         uses: EndBug/add-and-commit@v7
         with:
-          add: "out"
+          add: "docs"
           push: true
