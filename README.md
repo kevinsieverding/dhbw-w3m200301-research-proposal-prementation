@@ -15,4 +15,4 @@
   </tr>
 <table>
 
-Die fertige Präsentation ist `out/index.html`. Alternativ ist sie auch [hier](https://kevinsieverding.github.io/dhbw-w3m200301-research-proposal-presentation) abrufbar.
+Die fertige Präsentation ist `docs/index.html`. Alternativ ist sie auch [hier](https://kevinsieverding.github.io/dhbw-w3m200301-research-proposal-presentation) abrufbar.
