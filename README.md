@@ -14,3 +14,5 @@
     <td>2021-11-08</td>
   </tr>
 <table>
+
+Die fertige Präsentation ist `out/index.html`. Alternativ ist sie auch [hier](https://kevinsieverding.github.io/dhbw-w3m200301-research-proposal-prementation) abrufbar.
