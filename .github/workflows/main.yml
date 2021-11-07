@@ -1,0 +1,33 @@
+name: Build and Push
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "out/**"
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: build
+        uses: docker://pandoc/crossref:2.16
+        with:
+          args: >-
+            --standalone
+            --self-contained
+            --citeproc
+            --slide-level=2
+            -t revealjs
+            --output=out/index.html
+            slides.md
+
+      - name: commit and push
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: "out"
+          push: true
