@@ -75,7 +75,7 @@ Message Schema Management Solutions: Overview and Evaluation
 
 - Marktspiegel
 
-- *[*Anforderungsanalyse (@rupp_requirements_2009)_]_
+- [Anforderungsanalyse (@rupp_requirements_2009)]
 
 - Nutzwertanalyse (@zangemeister_nutzwertanalyse_2014)
 
