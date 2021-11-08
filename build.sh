@@ -5,4 +5,4 @@ if [ ! $(git rev-parse --show-toplevel) == $(pwd) ]; then
   exit 1;
 fi
 
-pandoc --citeproc -s -t revealjs slides.md -o index.html --slide-level 2
+pandoc --self-contained --citeproc -s -t revealjs slides.md -o docs/index.html --slide-level 2

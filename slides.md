@@ -5,6 +5,7 @@ author: "Kevin Sieverding"
 date: 2021-11-08
 csl: apa
 bibliography: bibliography.bib
+slideNumber: true
 ---
 
 #
